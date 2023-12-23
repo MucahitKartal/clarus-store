@@ -1,23 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-slate-700 text-white text-4xl flex justify-center gap-2 items-center">
+      <span className="animate-bounce">🏀</span>
+      <h1 className="animate-pulse">Welcome to Session 1 of the Clarus Store Project FS15!</h1>
+      <span className="animate-bounce">🏀</span>
     </div>
   );
 }
