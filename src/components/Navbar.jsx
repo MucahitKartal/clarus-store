@@ -45,7 +45,11 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        <div className={`${show ? "flex flex-col pb-2" : "hidden"} flex-1 items-center md:flex md:flex-row`}>
+        <div
+          className={`${
+            show ? "flex flex-col pb-2" : "hidden"
+          } flex-1 items-center md:flex md:flex-row`}
+        >
           <ul className="space-y-6 md:flex md:space-x-6 md:space-y-0">
             {navigation.map((item) => (
               <li
